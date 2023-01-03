@@ -1,0 +1,23 @@
+An iconic public library in Zimbabwe’s second city faces collapse after years of structural deterioration amid poor funding for the country’s public service sector. The Bulawayo Public Library is a city landmark built more than a century ago. It is home to thousands of books that have nurtured some of the city’s luminaries, but years of under-funding have meant the maintenance of the building has all but been neglected. This as public amenities in the country have not been spared the devastating effects of a decades-long economic crisis that has stripped critical sectors of government funding. With the city already struggling to provide essential services such as water and refuse collection among others, public library’s needs have for years been pushed to the periphery. Officials at the library say they are racing against time to save the architectural marvel from collapsing into rubble amid a leaking roof, peeling paint and unstable floors.   Subscribe to the M&G today for just R30 for the first three months* to gain access to this story and all our best journalism, subscriber-only newsletters, events and a weekly cryptic crossword.” .pmpro_signup_form-hidelabels .pmpro_checkout-field label:first-child {
+				clip: rect(1px, 1px, 1px, 1px);
+				position: absolute;
+				height: 1px;
+				width: 1px;
+				overflow: hidden
+			}
+			
+		
+		
+			jQuery(document).ready(function() {
+				jQuery('.pmpro_short_selection').on('change', function() {
+					var level_id = this.value;
+					jQuery("a#mg_discount_link").attr("href", 'https://mg.co.za/account-confirm-order/?level='+level_id);
+				});
+			});
+			function mg_before_checkout() {
+				jQuery("#password2").val(jQuery("#password").val());
+				jQuery("#bconfirmemail").val(jQuery("#bemail").val());
+				jQuery('#pmpro_btn-submit').css({'pointer-events':'none', 'cursor':'not-allowed'});
+				jQuery('#pmpro_btn-submit').val('Please wait...');
+				gtag('event', 'singleSubsbutton', {'event_category': 'singleSubsbutton'});
+			}  Looking for another offer? 
